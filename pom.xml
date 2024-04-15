@@ -76,13 +76,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url>http://18.190.26.145:8081/repository/Liontech-Joined-Project-release/</url>
+	      <url>http://18.190.26.145:8081/repository/Liontech-Joined-Freestyle-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url>http://18.190.26.145:8081/repository/Liontech-Joined-Project-snapshot/</url>
+	      <url>http://18.190.26.145:8081/repository/Liontech-Joined-Freestyle-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
