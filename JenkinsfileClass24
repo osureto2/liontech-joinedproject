@@ -6,12 +6,12 @@ git 'https://github.com/osureto2/liontech-joinedproject.git'
 stage('2.Build'){
 sh "${mavenHome}/bin/mvn clean package"
 }
-/*
+
 stage('3.CodeQualityAnalysis'){
 sh "${mavenHome}/bin/mvn sonar:sonar"
 }
-*/
-stage('4.UploadToNexus'){
+
+stage('4.Upload'){
 sh "${mavenHome}/bin/mvn deploy"
 }
 }
