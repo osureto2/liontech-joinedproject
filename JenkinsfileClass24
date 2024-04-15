@@ -3,4 +3,7 @@ def mavenHome = tool name: 'Maven'
 stage('1.PullSCM'){
 git 'https://github.com/osureto2/liontech-joinedproject.git'
 }
+stage('2.Build'){
+sh "${mavenHome}/bin/mvn clean package"
+}
 }
